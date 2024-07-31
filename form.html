@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h2> Registration form </h2>
+    <form>
+        <div>
+            <label for="fullname">Fullname:</label>
+            <input type="text" name="fullname"Id="fullname">
+        </div><br>
+
+        <div>
+           <label for="email">Email:</label>
+           <input type="text" name="email" id="email">
+        </div><br>
+
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="email">
+         </div><br>
+
+         <div>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" name="dob" id="dob">
+         </div><br>
+
+         <div>
+            <label for="photo">Choose your photo:</label>
+            <input type="file" name="photo" id="photo">
+         </div><br>
+
+         <div>
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" id="gender" value="male">Male
+            <input type="radio" name="gender" id="gender" value="female">Female
+         </div><br>
+
+         <div>
+            <label for="religion">Religion:</label>
+            <input type="checkbox" name="religion" id="religion" value="muslim">Muslim
+            <input type="checkbox" name="religion" id="religion" value="hindu">Hindu
+         </div><br>
+
+         <div>
+            <label for="Department">Department:</label>
+            <select name="department">
+                <option value="CSE">CSE</option>
+                <option value="EEE">EEE</option>
+                <option value="ECE">ECE</option>
+            </select>
+        </div><br>
+
+        <div>
+            <label for="message">Message:</label><br>
+            <textarea name="" id="" cols="20" rows="5"></textarea>
+        </div>
+        
+        <div>
+            <input type="submit" value="Submit">
+            <input type="submit" value="Clear">
+        </div>
+    </form>
+</body>
+</html>
